@@ -1,0 +1,163 @@
+[
+  {
+    "id": 1,
+    "name": "Margherita Pizza",
+    "description": "Classic pizza with fresh mozzarella, tomatoes, and basil.",
+    "price": 8.99,
+    "category": "Pizza",
+    "image": "https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 2,
+    "name": "Cheeseburger",
+    "description": "Juicy beef patty with cheddar cheese, lettuce, and tomato.",
+    "price": 7.49,
+    "category": "Burger",
+    "image": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 3,
+    "name": "Caesar Salad",
+    "description": "Crisp romaine lettuce tossed with Caesar dressing and croutons.",
+    "price": 6.25,
+    "category": "Salad",
+    "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 4,
+    "name": "Chicken Biryani",
+    "description": "Aromatic basmati rice cooked with tender chicken and spices.",
+    "price": 9.99,
+    "category": "Rice",
+    "image": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 5,
+    "name": "Paneer Tikka",
+    "description": "Grilled paneer cubes marinated in spicy yogurt.",
+    "price": 7.99,
+    "category": "Appetizer",
+    "image": "https://images.pexels.com/photos/9609838/pexels-photo-9609838.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 6,
+    "name": "Veggie Wrap",
+    "description": "Whole wheat wrap filled with fresh veggies and hummus.",
+    "price": 5.50,
+    "category": "Wrap",
+    "image": "https://images.pexels.com/photos/5945857/pexels-photo-5945857.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 7,
+    "name": "French Fries",
+    "description": "Crispy golden fries served with ketchup.",
+    "price": 3.25,
+    "category": "Sides",
+    "image": "https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 8,
+    "name": "Chicken Tacos",
+    "description": "Soft tortillas filled with spicy chicken and fresh salsa.",
+    "price": 6.75,
+    "category": "Tacos",
+    "image": "https://images.pexels.com/photos/4958641/pexels-photo-4958641.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 9,
+    "name": "Chocolate Brownie",
+    "description": "Rich, fudgy chocolate brownie served warm.",
+    "price": 4.00,
+    "category": "Dessert",
+    "image": "https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 10,
+    "name": "Spaghetti Carbonara",
+    "description": "Classic Italian pasta with creamy sauce and bacon.",
+    "price": 8.50,
+    "category": "Pasta",
+    "image": "https://images.pexels.com/photos/1527603/pexels-photo-1527603.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 11,
+    "name": "Grilled Cheese Sandwich",
+    "description": "Melted cheese between buttery toasted bread.",
+    "price": 4.75,
+    "category": "Sandwich",
+    "image": "https://images.pexels.com/photos/1647163/pexels-photo-1647163.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 12,
+    "name": "Fish and Chips",
+    "description": "Crispy battered fish served with fries.",
+    "price": 9.25,
+    "category": "Seafood",
+    "image": "https://images.pexels.com/photos/616354/pexels-photo-616354.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 13,
+    "name": "Greek Salad",
+    "description": "Fresh salad with feta cheese, olives, and cucumber.",
+    "price": 6.00,
+    "category": "Salad",
+    "image": "https://images.pexels.com/photos/1211887/pexels-photo-1211887.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 14,
+    "name": "Butter Chicken",
+    "description": "Creamy tomato-based curry with tender chicken pieces.",
+    "price": 10.50,
+    "category": "Curry",
+    "image": "https://images.pexels.com/photos/7625056/pexels-photo-7625056.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 15,
+    "name": "Veggie Burger",
+    "description": "Grilled veggie patty with lettuce and tomato.",
+    "price": 7.00,
+    "category": "Burger",
+    "image": "https://images.pexels.com/photos/3616956/pexels-photo-3616956.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 16,
+    "name": "Chicken Noodles",
+    "description": "Stir-fried noodles with chicken and vegetables.",
+    "price": 7.99,
+    "category": "Noodles",
+    "image": "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 17,
+    "name": "Samosa",
+    "description": "Crispy pastry filled with spicy potatoes and peas.",
+    "price": 2.50,
+    "category": "Snacks",
+    "image": "https://images.pexels.com/photos/4449068/pexels-photo-4449068.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 18,
+    "name": "Mushroom Soup",
+    "description": "Creamy soup with fresh mushrooms and herbs.",
+    "price": 5.00,
+    "category": "Soup",
+    "image": "https://images.pexels.com/photos/539451/pexels-photo-539451.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 19,
+    "name": "Mango Lassi",
+    "description": "Refreshing yogurt-based mango drink.",
+    "price": 3.75,
+    "category": "Beverage",
+    "image": "https://images.pexels.com/photos/3625372/pexels-photo-3625372.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 20,
+    "name": "Pancakes",
+    "description": "Fluffy pancakes served with syrup and butter.",
+    "price": 5.25,
+    "category": "Breakfast",
+    "image": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=400"
+  }
+]
+
