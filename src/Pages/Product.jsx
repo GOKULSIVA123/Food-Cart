@@ -2,33 +2,60 @@ import React, { useContext, useState } from 'react'
 import { cartContent } from '../App'
 
 function Product({data}) {
-    const {Cart,setCart}=useContext(cartContent)
-    const {Cart1,setCart1}=useContext(cartContent)
+    const {Cart, setCart, Cart1, setCart1} = useContext(cartContent)
+    
     function addcart(){
-        setCart([...Cart,data])
+        setCart([...Cart, data])
     }
+    
     function removecart(){
-        setCart(Cart.filter((c)=>c.id!==data.id))
+        setCart(Cart.filter((c) => c.id !== data.id))
     }
+    
     function addfav(){
-        setCart1([...Cart,data])
+        setCart1([...Cart1, data])
     }
+    
     function removefav(){
-        setCart1(Cart.filter((c)=>c.id!==data.id))
+        setCart1(Cart1.filter((c) => c.id !== data.id))
     }
-  return (
-    <div key={data.id} className='max-w-64 min-h-52 mt-5 ml-5 bg-white rounded-lg flex flex-col justify-center text-center items-center transition-transform duration-300 hover:scale-110 gap-2'>
-        <img width="100px" height="100px" src={data.image}></img>
-        <h1>{data.name}</h1>
-        <p>{data.price}</p>
-        {
-            Cart.includes(data)?(<button onClick={removecart}className='px-4 py-2 bg-black text-white rounded-lg'>Remove from Cart</button>):(<button onClick={addcart}className='px-4 py-2 bg-black text-white rounded-lg'>Add to Cart</button>)
-        }
-        {
-            Cart1.includes(data)?(<button className="className='px-4 py-2 bg-black text-white rounded-lg" onClick={removefav}>Remove Favourite</button>):(<button onClick={addfav}className='px-4 py-2 bg-black text-white rounded-lg'>Add Favourite</button>)
-        }
-    </div>
-  )
+    
+    const isInCart = Cart.some(item => item.id === data.id);
+    const isInFavorites = Cart1.some(item => item.id === data.id);
+    
+    return (
+        <div className='w-full max-w-xs bg-white rounded-lg shadow-md p-4 flex flex-col justify-between items-center transition-transform duration-300 hover:scale-105 gap-3'>
+            <div className='w-full flex flex-col items-center'>
+                <img 
+                    className='w-24 h-24 object-contain mb-2' 
+                    src={data.image} 
+                    alt={data.name}
+                />
+                <h1 className='font-semibold text-lg'>{data.name}</h1>
+                <p className='text-gray-700 font-medium'>${data.price}</p>
+            </div>
+            
+            <div className='w-full flex flex-col gap-2 mt-2'>
+                <button 
+                    onClick={isInCart ? removecart : addcart}
+                    className={`w-full px-3 py-1.5 rounded-lg text-white text-sm font-medium transition-colors ${
+                        isInCart ? 'bg-red-500 hover:bg-red-600' : 'bg-blue-500 hover:bg-blue-600'
+                    }`}
+                >
+                    {isInCart ? 'Remove from Cart' : 'Add to Cart'}
+                </button>
+                
+                <button 
+                    onClick={isInFavorites ? removefav : addfav}
+                    className={`w-full px-3 py-1.5 rounded-lg text-white text-sm font-medium transition-colors ${
+                        isInFavorites ? 'bg-gray-500 hover:bg-gray-600' : 'bg-purple-500 hover:bg-purple-600'
+                    }`}
+                >
+                    {isInFavorites ? 'Remove Favorite' : 'Add Favorite'}
+                </button>
+            </div>
+        </div>
+    )
 }
 
 export default Product
