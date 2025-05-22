@@ -10,7 +10,7 @@ export default function Navbar() {
       <div className="w-full bg-blue-300 shadow-sm sticky top-0 z-50">
         <div className="w-[95%] max-w-7xl mx-auto py-3 px-4">
           <div className="flex flex-row justify-between items-center">
-            <h1 className="text-lg font-semibold">Food Cart</h1>
+            <h1 className="text-lg font-semibold">Culinary Express</h1>
             
             {/* Mobile Menu Button */}
             <button 
